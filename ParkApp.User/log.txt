@@ -418,3 +418,31 @@ ParkApp.User.Controllers.UserController.Create (ParkApp.User)
 2021-05-10 07:49:07.874 +03:00 [INF] Executed action ParkApp.User.Controllers.ContactController.Index (ParkApp.User) in 8.3476ms
 2021-05-10 07:49:07.876 +03:00 [INF] Executed endpoint 'ParkApp.User.Controllers.ContactController.Index (ParkApp.User)'
 2021-05-10 07:49:07.877 +03:00 [INF] Request finished in 21.7379ms 200 text/html; charset=utf-8
+2021-05-10 23:46:26.356 +03:00 [INF] User profile is available. Using 'C:\Users\Ahmet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-10 23:46:27.465 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-10 23:46:27.467 +03:00 [INF] Hosting environment: Development
+2021-05-10 23:46:27.467 +03:00 [INF] Content root path: C:\Users\Ahmet\Source\Repos\ahmetkecici\ParkApp\ParkApp.User
+2021-05-10 23:46:27.536 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44396/  
+2021-05-10 23:46:27.591 +03:00 [INF] Executing endpoint 'ParkApp.User.Controllers.HomeController.Index (ParkApp.User)'
+2021-05-10 23:46:27.662 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ParkApp.User.Controllers.HomeController (ParkApp.User).
+2021-05-10 23:46:27.684 +03:00 [INF] Customer da hata {"Id":1,"NameSurname":"ayşenur keçici","Age":11,"$type":"Customer"}
+2021-05-10 23:46:27.714 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-10 23:46:28.050 +03:00 [INF] Executed ViewResult - view Index executed in 339.1852ms.
+2021-05-10 23:46:28.053 +03:00 [INF] Executed action ParkApp.User.Controllers.HomeController.Index (ParkApp.User) in 390.58840000000004ms
+2021-05-10 23:46:28.054 +03:00 [INF] Executed endpoint 'ParkApp.User.Controllers.HomeController.Index (ParkApp.User)'
+2021-05-10 23:46:28.060 +03:00 [INF] Request finished in 527.3467ms 200 text/html; charset=utf-8
+2021-05-10 23:46:28.287 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44396/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-10 23:46:28.308 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44396/lib/jquery/dist/jquery.min.js  
+2021-05-10 23:46:28.308 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44396/css/site.css  
+2021-05-10 23:46:28.337 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Ahmet\Source\Repos\ahmetkecici\ParkApp\ParkApp.User\wwwroot\css\site.css'
+2021-05-10 23:46:28.337 +03:00 [INF] Request finished in 29.7348ms 200 text/css
+2021-05-10 23:46:28.344 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44396/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-10 23:46:28.467 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Ahmet\Source\Repos\ahmetkecici\ParkApp\ParkApp.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-10 23:46:28.469 +03:00 [INF] Request finished in 182.48850000000002ms 200 text/css
+2021-05-10 23:46:28.492 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44396/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-10 23:46:28.494 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Ahmet\Source\Repos\ahmetkecici\ParkApp\ParkApp.User\wwwroot\js\site.js'
+2021-05-10 23:46:28.494 +03:00 [INF] Request finished in 2.3848000000000003ms 200 application/javascript
+2021-05-10 23:46:28.544 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Ahmet\Source\Repos\ahmetkecici\ParkApp\ParkApp.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-10 23:46:28.544 +03:00 [INF] Request finished in 200.06210000000002ms 200 application/javascript
+2021-05-10 23:46:28.791 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Ahmet\Source\Repos\ahmetkecici\ParkApp\ParkApp.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-10 23:46:28.792 +03:00 [INF] Request finished in 484.68260000000004ms 200 application/javascript
